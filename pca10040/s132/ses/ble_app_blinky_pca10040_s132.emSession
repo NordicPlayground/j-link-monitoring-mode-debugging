@@ -2,10 +2,8 @@
 <session>
  <Bookmarks/>
  <Breakpoints groups="Breakpoints" active_group="Breakpoints">
-  <BreakpointListItem trigger="Execute" line="-1" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="0x8b8" group="Breakpoints" type="Breakpoint" state="3" filename="" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="Execute" line="0" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="0x8b8" group="Breakpoints" type="Breakpoint" state="3" filename="../ses" useHWbreakpoint="false"/>
   <BreakpointListItem trigger="" line="122" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../../../../components/libraries/util/app_error.c" useHWbreakpoint="false"/>
-  <BreakpointListItem trigger="" line="102" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../JLINK_MONITOR.c" useHWbreakpoint="false"/>
-  <BreakpointListItem trigger="" line="568" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../main.c" useHWbreakpoint="false"/>
   <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
  </Breakpoints>
  <ExecutionProfileWindow/>
@@ -30,10 +28,7 @@
   <ProjectSessionItem path="ble_app_blinky_pca10040_s132;ble_app_blinky_pca10040_s132;Application"/>
   <ProjectSessionItem path="ble_app_blinky_pca10040_s132;ble_app_blinky_pca10040_s132;Board Definition"/>
   <ProjectSessionItem path="ble_app_blinky_pca10040_s132;ble_app_blinky_pca10040_s132;Device"/>
-  <ProjectSessionItem path="ble_app_blinky_pca10040_s132;ble_app_blinky_pca10040_s132;nRF_Log"/>
-  <ProjectSessionItem path="ble_app_blinky_pca10040_s132;ble_app_blinky_pca10040_s132;nRF_Segger_RTT"/>
-  <ProjectSessionItem path="ble_app_blinky_pca10040_s132;ble_app_blinky_pca10040_s132;nRF_SoftDevice"/>
-  <ProjectSessionItem path="ble_app_blinky_pca10040_s132;ble_app_blinky_pca10040_s132;Segger Startup Files"/>
+  <ProjectSessionItem path="ble_app_blinky_pca10040_s132;ble_app_blinky_pca10040_s132;nRF_Libraries"/>
  </Project>
  <Register1>
   <RegisterWindow visibleNodes="RTC1/TASKS_START;RTC1/TASKS_STOP;RTC1/TASKS_CLEAR;RTC1/TASKS_TRIGOVRFLW;RTC1/EVENTS_TICK;RTC1/EVENTS_OVRFLW;RTC1/EVENTS_COMPARE[0];RTC1/EVENTS_COMPARE[1];RTC1/EVENTS_COMPARE[2];RTC1/EVENTS_COMPARE[3];RTC1/INTENSET;RTC1/INTENCLR;RTC1/EVTEN;RTC1/EVTENSET;RTC1/EVTENCLR;RTC1/COUNTER;RTC1/PRESCALER;RTC1/CC[0];RTC1/CC[1];RTC1/CC[2];RTC1/CC[3];RTC2/TASKS_START;RTC2/TASKS_STOP;RTC2/TASKS_CLEAR;RTC2/TASKS_TRIGOVRFLW;RTC2/EVENTS_TICK;RTC2/EVENTS_OVRFLW;RTC2/EVENTS_COMPARE[0];RTC2/EVENTS_COMPARE[1];RTC2/EVENTS_COMPARE[2];RTC2/EVENTS_COMPARE[3];RTC2/INTENSET;RTC2/INTENCLR;RTC2/EVTEN;RTC2/EVTENSET;RTC2/EVTENCLR;RTC2/COUNTER;RTC2/PRESCALER;RTC2/CC[0];RTC2/CC[1];RTC2/CC[2];RTC2/CC[3]" binaryNodes="" asciiNodes="" openNodes="RTC1;RTC2" name="ble_app_blinky_pca10040_s132" decimalNodes="" octalNodes="" unsignedNodes=""/>
@@ -63,27 +58,15 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="35" y="544" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../main.c" debugPath="../../../main.c" selected="0" top="534" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="32" y="25" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../JLINK_MONITOR_ISR_SES.s" debugPath="../../../JLINK_MONITOR_ISR_SES.s" selected="0" top="3" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="14" y="101" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../JLINK_MONITOR.c" debugPath="../../../JLINK_MONITOR.c" selected="0" top="82" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="2" useTextEdit="0" useBinaryEdit="0" left="0" path="Output/ble_app_blinky_pca10040_s132 Release/Obj/JLINK_MONITOR.o" debugPath="Output/ble_app_blinky_pca10040_s132 Release/Obj/JLINK_MONITOR.o" selected="0" top="0" codecName=""/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="76" y="30" useTextEdit="1" useBinaryEdit="0" left="0" path="../config/sdk_config.h" debugPath="../config/sdk_config.h" selected="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="238" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_util.h" debugPath="../../../../../../components/libraries/util/app_util.h" selected="0" top="223" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="70" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/timer/app_timer.h" debugPath="../../../../../../components/libraries/timer/app_timer.h" selected="0" top="70" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="19" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../JLINK_MONITOR.h" debugPath="../../../JLINK_MONITOR.h" selected="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="98" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_error_weak.c" debugPath="../../../../../../components/libraries/util/app_error_weak.c" selected="0" top="75" codecName=""/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="110" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_error.h" debugPath="../../../../../../components/libraries/util/app_error.h" selected="0" top="96" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="93" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_error_handler_gcc.c" debugPath="../../../../../../components/libraries/util/app_error_handler_gcc.c" selected="0" top="70" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="25" y="207" useTextEdit="1" useBinaryEdit="0" left="0" path="C:/Program Files/SEGGER/SEGGER Embedded Studio 3.30/source/thumb_crt0.s" debugPath="C:/Program Files/SEGGER/SEGGER Embedded Studio 3.30/source/thumb_crt0.s" selected="1" top="294" codecName=""/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="77" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_error.c" debugPath="../../../../../../components/libraries/util/app_error.c" selected="0" top="59" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="35" y="144" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_util_platform.h" debugPath="../../../../../../components/libraries/util/app_util_platform.h" selected="0" top="132" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="339" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/toolchain/cmsis/include/cmsis_gcc.h" debugPath="../../../../../../components/toolchain/cmsis/include/cmsis_gcc.h" selected="0" top="306" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="295" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/softdevice/s132/headers/nrf_nvic.h" debugPath="../../../../../../components/softdevice/s132/headers/nrf_nvic.h" selected="0" top="268" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="1064" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/timer/app_timer.c" debugPath="../../../../../../components/libraries/timer/app_timer.c" selected="0" top="1047" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="21" useTextEdit="1" useBinaryEdit="0" left="0" path="ble_app_blinky_pca10040_s132.emProject" debugPath="ble_app_blinky_pca10040_s132.emProject" selected="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="25" y="71" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/mdk/ses_nRF_Startup.s" debugPath="../../../../../../modules/nrfx/mdk/ses_nRF_Startup.s" selected="0" top="60" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="36" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/mdk/system_nrf52.c" debugPath="../../../../../../modules/nrfx/mdk/system_nrf52.c" selected="0" top="17" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="32" y="42" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/mdk/ses_nrf52_Vectors.s" debugPath="../../../../../../modules/nrfx/mdk/ses_nrf52_Vectors.s" selected="0" top="17" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="561" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../main.c" debugPath="../../../main.c" selected="1" top="551" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/mdk/ses_nRF_Startup.s" debugPath="../../../../../../modules/nrfx/mdk/ses_nRF_Startup.s" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/mdk/ses_nrf52_Vectors.s" debugPath="../../../../../../modules/nrfx/mdk/ses_nrf52_Vectors.s" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="27" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../JLINK_MONITOR_ISR_SES.s" debugPath="../../../JLINK_MONITOR_ISR_SES.s" selected="0" top="3" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="65" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../JLINK_MONITOR.c" debugPath="../../../JLINK_MONITOR.c" selected="0" top="6" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="5940" useTextEdit="1" useBinaryEdit="0" left="0" path="../config/sdk_config.h" debugPath="../config/sdk_config.h" selected="0" top="5896" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="241" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_util.h" debugPath="../../../../../../components/libraries/util/app_util.h" selected="0" top="210" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="80" y="32" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/hardfault/hardfault_implementation.c" debugPath="../../../../../../components/libraries/hardfault/hardfault_implementation.c" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1789" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../../components/toolchain/cmsis/include/core_cm4.h" debugPath="../../../../../../components/toolchain/cmsis/include/core_cm4.h" selected="0" top="1758" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="ble_app_blinky_pca10040_s132" fileDialogDefaultFilter="" autoConnectTarget="J-Link" buildConfiguration="Debug" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/haho/Documents/nRF_SDK/nRF5_SDK_15.0/examples/ble_peripheral/j-link-monitoring-mode-debugging" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <ARMCrossStudioWindow activeProject="ble_app_blinky_pca10040_s132" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/haho/Documents/nRF_SDK/nRF5_SDK_15.0/examples/ble_peripheral/j-link-monitoring-mode-debugging" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>

@@ -110,7 +110,8 @@
     </folder>
     <configuration
       JLinkExecuteCommand="SetMonModeDebug = 1;SetMonModeVTableAddr = 0x26000"
-      Name="Debug" />
+      Name="Debug"
+      c_preprocessor_definitions="DEBUG_NRF" />
   </project>
   <configuration
     Name="Release"
