@@ -6,14 +6,14 @@ Monitor Mode Debugging enables you to halt and step through low priority code wh
 
 ### Requirements:
 
-* nRF5_SDK14.2
+* nRF5_SDK15.0
 * nRF52DK (PCA10040)
-* Keil µVision5 or Segger Embedded Studio V3.30
+* Keil µVision5 or Segger Embedded Studio V3.30 or higher
 * nRF Connect (mobile or computer)
 
 ## What exactly is MMD?
 
-Monitor Mode Debugging is essentially an interrupt service routine that contains an infinite loop. The MMD ISR has an execution priority equeal to or higher than your application, but lower than the code you want to run unimpeded. When the CPU receives a halt command from the debugger, it will execute the MMD ISR instead of halting, preempting the application code. While the CPU is busy running the MMD ISR (infinite loop), code with higher execution priority (SoftDevice, drivers, etc) can preempt the MMD ISR, but lower execution priority code (main application, libraries, etc) cannot.
+Monitor Mode Debugging is essentially an interrupt service routine that contains an infinite loop. The MMD ISR has an execution priority equeal to or higher than your application, but lower than the code you want to run unimpeded. When the program hits a breakpoint the debugger will execute the MMD ISR instead of halting the CPU, preempting the application code. While the CPU is busy running the MMD ISR (infinite loop), code with higher execution priority (SoftDevice, drivers, etc) can preempt the MMD ISR, but lower execution priority code (main application, libraries, etc) cannot.
 
 When single stepping through code, a debugger will insert a breakpoint after each step. This means that MMD can also handle stepping through code of equal or lower priority without preempting higher priority calls. 
 
