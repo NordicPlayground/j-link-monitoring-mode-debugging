@@ -49,7 +49,7 @@ Open up the example project from the SDK15.0 branch.
 Right-click 'Project ble_app_blinky...' and choose 'Edit Options'.
 Select 'Debug' from the drop-down menu. (Common, Debug, Release).
 Go to Debug -> J-Link -> Additional J-Link Options. Double click to view or edit.
-See this tutorial's project settings for reference.
+See this tutorial's project settings for reference, as well as https://www.segger.com/downloads/jlink/UM08001 Chapter 9.7 Forwarding of Monitor Interrupts. The reference to "additional software layer that takes all interrupts in the first place and forwards them to the user application" in the J-link User Guide chapter 9.7 is in our case the SoftDevice.
 
 ###Wait, that's it!?
 Youp, that's it.

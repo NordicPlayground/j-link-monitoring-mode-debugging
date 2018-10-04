@@ -45,7 +45,8 @@ The differences between this example and the standard ble_app_blinky demo are li
 
 3. You need to enable the interrupt by NVIC_SetPriority(DebugMonitor_IRQn, _PRIO_SD_LOW) at the start of your main loop. The priority level determines what execution priority levels you want to block.
 
-4. Enable MMD in the J-link driver: see line 10 and 11 in [JLinkSettings.ini](JLinkSettings.ini)
+4. Enable MMD in the J-link driver: see line 10 and 11 in [JLinkSettings.ini](JLinkSettings.ini).
+See https://www.segger.com/downloads/jlink/UM08001 Chapter 9.7 Forwarding of Monitor Interrupts. The reference to "additional software layer that takes all interrupts in the first place and forwards them to the user application" in the J-link User Guide chapter 9.7 is in our case the SoftDevice.
 
 ### Wait, that's it!?
 Youp, that's it.
