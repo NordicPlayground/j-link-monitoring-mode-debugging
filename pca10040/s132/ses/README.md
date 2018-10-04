@@ -44,14 +44,16 @@ The differences between this example and the standard ble_app_blinky demo are li
 2. You need to stop the app_timer (and feed a watchdog if needed) with the MMD utility functions that the assembly coded ISR refers to in [JLINK_MONITOR.c](../../../JLINK_MONITOR.c) and [JLINK_MONITOR.h](../../../JLINK_MONITOR.h)
 
 3. You need to enable the interrupt by NVIC_SetPriority(DebugMonitor_IRQn, _PRIO_SD_LOW) at the start of your main loop. All the application/protocol_stack context with priority less that the selected priority will be blocked by the DebugMonitor and is available to debug/Step. All the application/protocol_stack context with priority higher than the selected priority will will run uninterrupted irrespective of your debugger state. In this case all we will block all low priority app and softdevice interrupts. But the application high priority interrupts and softdevice radio and house_keeping timer interrupts will run uninterrupted. 
+
 4. You need to set the applications vector table because the J-Link driver needs it in order to execute the MMD ISR.
 The application's vector table is at the start of the application's starting address in flash. In a SES project you'll find it in:
 Option for project -> Common -> Linker -> Section Placement Macros -> FLASH_START.
 Open up the example project from the SDK15.0 branch.
 Right-click 'Project ble_app_blinky...' and choose 'Edit Options'.
 Select 'Debug' from the drop-down menu. (Common, Debug, Release).
-Go to Debug -> J-Link -> Additional J-Link Options. Double click to view or edit.
-See this tutorial's project settings for reference.
+Go to Debug -> J-Link -> Additional J-Link Options. Double click to view or edit. 
+See this tutorial's project settings for reference, as well as https://www.segger.com/downloads/jlink/UM08001 Chapter 9.7 Forwarding of Monitor Interrupts. The reference to "additional software layer that takes all interrupts in
+the first place and forwards them to the user application" in the J-link User Guide chapter 9.7 is in our case the SoftDevice. 
 
 ### Wait, that's it!?
 
