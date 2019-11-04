@@ -1135,73 +1135,92 @@ onents\ble\ble_services\ble_lls -I..\..\..\..\..\..\components\ble\ble_services
 s -I..\..\..\..\..\..\components\ble\common -I..\..\..\..\..\..\components\ble\
 nrf_ble_gatt -I..\..\..\..\..\..\components\ble\nrf_ble_qwr -I..\..\..\..\..\..
 \components\ble\peer_manager -I..\..\..\..\..\..\components\boards -I..\..\..\.
-.\..\..\components\drivers_nrf\clock -I..\..\..\..\..\..\components\drivers_nrf
-\common -I..\..\..\..\..\..\components\drivers_nrf\comp -I..\..\..\..\..\..\com
-ponents\drivers_nrf\delay -I..\..\..\..\..\..\components\drivers_nrf\gpiote -I.
-.\..\..\..\..\..\components\drivers_nrf\hal -I..\..\..\..\..\..\components\driv
-ers_nrf\i2s -I..\..\..\..\..\..\components\drivers_nrf\lpcomp -I..\..\..\..\..\
-..\components\drivers_nrf\pdm -I..\..\..\..\..\..\components\drivers_nrf\power 
--I..\..\..\..\..\..\components\drivers_nrf\ppi -I..\..\..\..\..\..\components\d
-rivers_nrf\pwm -I..\..\..\..\..\..\components\drivers_nrf\qdec -I..\..\..\..\..
-\..\components\drivers_nrf\rng -I..\..\..\..\..\..\components\drivers_nrf\rtc -
-I..\..\..\..\..\..\components\drivers_nrf\saadc -I..\..\..\..\..\..\components\
-drivers_nrf\spi_master -I..\..\..\..\..\..\components\drivers_nrf\spi_slave -I.
-.\..\..\..\..\..\components\drivers_nrf\swi -I..\..\..\..\..\..\components\driv
-ers_nrf\timer -I..\..\..\..\..\..\components\drivers_nrf\twi_master -I..\..\..\
-..\..\..\components\drivers_nrf\twis_slave -I..\..\..\..\..\..\components\drive
-rs_nrf\uart -I..\..\..\..\..\..\components\drivers_nrf\usbd -I..\..\..\..\..\..
-\components\drivers_nrf\wdt -I..\..\..\..\..\..\components\libraries\atomic -I.
-.\..\..\..\..\..\components\libraries\atomic_fifo -I..\..\..\..\..\..\component
-s\libraries\balloc -I..\..\..\..\..\..\components\libraries\button -I..\..\..\.
-.\..\..\components\libraries\cli -I..\..\..\..\..\..\components\libraries\crc16
- -I..\..\..\..\..\..\components\libraries\crc32 -I..\..\..\..\..\..\components\
-libraries\csense -I..\..\..\..\..\..\components\libraries\csense_drv -I..\..\..
-\..\..\..\components\libraries\ecc -I..\..\..\..\..\..\components\libraries\exp
-erimental_log -I..\..\..\..\..\..\components\libraries\experimental_log\src -I.
-.\..\..\..\..\..\components\libraries\experimental_memobj -I..\..\..\..\..\..\c
-omponents\libraries\experimental_section_vars -I..\..\..\..\..\..\components\li
-braries\fds -I..\..\..\..\..\..\components\libraries\fstorage -I..\..\..\..\..\
-..\components\libraries\gpiote -I..\..\..\..\..\..\components\libraries\hardfau
-lt -I..\..\..\..\..\..\components\libraries\hci -I..\..\..\..\..\..\components\
-libraries\led_softblink -I..\..\..\..\..\..\components\libraries\low_power_pwm 
--I..\..\..\..\..\..\components\libraries\mem_manager -I..\..\..\..\..\..\compon
-ents\libraries\mutex -I..\..\..\..\..\..\components\libraries\pwm -I..\..\..\..
-\..\..\components\libraries\pwr_mgmt -I..\..\..\..\..\..\components\libraries\q
-ueue -I..\..\..\..\..\..\components\libraries\scheduler -I..\..\..\..\..\..\com
+.\..\..\components\drivers_nrf\usbd -I..\..\..\..\..\..\components\libraries\at
+omic -I..\..\..\..\..\..\components\libraries\atomic_fifo -I..\..\..\..\..\..\c
+omponents\libraries\atomic_flags -I..\..\..\..\..\..\components\libraries\ballo
+c -I..\..\..\..\..\..\components\libraries\bootloader\ble_dfu -I..\..\..\..\..\
+..\components\libraries\button -I..\..\..\..\..\..\components\libraries\cli -I.
+.\..\..\..\..\..\components\libraries\crc16 -I..\..\..\..\..\..\components\libr
+aries\crc32 -I..\..\..\..\..\..\components\libraries\crypto -I..\..\..\..\..\..
+\components\libraries\csense -I..\..\..\..\..\..\components\libraries\csense_dr
+v -I..\..\..\..\..\..\components\libraries\delay -I..\..\..\..\..\..\components
+\libraries\ecc -I..\..\..\..\..\..\components\libraries\experimental_log -I..\.
+.\..\..\..\..\components\libraries\experimental_log\src -I..\..\..\..\..\..\com
+ponents\libraries\experimental_memobj -I..\..\..\..\..\..\components\libraries\
+experimental_mpu -I..\..\..\..\..\..\components\libraries\experimental_ringbuf 
+-I..\..\..\..\..\..\components\libraries\experimental_section_vars -I..\..\..\.
+.\..\..\components\libraries\experimental_stack_guard -I..\..\..\..\..\..\compo
+nents\libraries\experimental_task_manager -I..\..\..\..\..\..\components\librar
+ies\fds -I..\..\..\..\..\..\components\libraries\fstorage -I..\..\..\..\..\..\c
+omponents\libraries\gfx -I..\..\..\..\..\..\components\libraries\gpiote -I..\..
+\..\..\..\..\components\libraries\hardfault -I..\..\..\..\..\..\components\libr
+aries\hci -I..\..\..\..\..\..\components\libraries\led_softblink -I..\..\..\..\
+..\..\components\libraries\low_power_pwm -I..\..\..\..\..\..\components\librari
+es\mem_manager -I..\..\..\..\..\..\components\libraries\mutex -I..\..\..\..\..\
+..\components\libraries\pwm -I..\..\..\..\..\..\components\libraries\pwr_mgmt -
+I..\..\..\..\..\..\components\libraries\queue -I..\..\..\..\..\..\components\li
+braries\scheduler -I..\..\..\..\..\..\components\libraries\sdcard -I..\..\..\..
+\..\..\components\libraries\slip -I..\..\..\..\..\..\components\libraries\sortl
+ist -I..\..\..\..\..\..\components\libraries\spi_mngr -I..\..\..\..\..\..\compo
+nents\libraries\strerror -I..\..\..\..\..\..\components\libraries\timer -I..\..
+\..\..\..\..\components\libraries\twi_mngr -I..\..\..\..\..\..\components\libra
+ries\twi_sensor -I..\..\..\..\..\..\components\libraries\usbd -I..\..\..\..\..\
+..\components\libraries\usbd\class\audio -I..\..\..\..\..\..\components\librari
+es\usbd\class\cdc -I..\..\..\..\..\..\components\libraries\usbd\class\cdc\acm -
+I..\..\..\..\..\..\components\libraries\usbd\class\hid -I..\..\..\..\..\..\comp
 
 
 
 ARM Macro Assembler    Page 19 
 
 
-ponents\libraries\slip -I..\..\..\..\..\..\components\libraries\strerror -I..\.
-.\..\..\..\..\components\libraries\timer -I..\..\..\..\..\..\components\librari
-es\twi -I..\..\..\..\..\..\components\libraries\twi_mngr -I..\..\..\..\..\..\co
-mponents\libraries\uart -I..\..\..\..\..\..\components\libraries\usbd -I..\..\.
-.\..\..\..\components\libraries\usbd\class\audio -I..\..\..\..\..\..\components
-\libraries\usbd\class\cdc -I..\..\..\..\..\..\components\libraries\usbd\class\c
-dc\acm -I..\..\..\..\..\..\components\libraries\usbd\class\hid -I..\..\..\..\..
-\..\components\libraries\usbd\class\hid\generic -I..\..\..\..\..\..\components\
-libraries\usbd\class\hid\kbd -I..\..\..\..\..\..\components\libraries\usbd\clas
-s\hid\mouse -I..\..\..\..\..\..\components\libraries\usbd\class\msc -I..\..\..\
-..\..\..\components\libraries\usbd\config -I..\..\..\..\..\..\components\librar
-ies\util -I..\..\..\..\..\..\components\softdevice\common -I..\..\..\..\..\..\c
-omponents\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s13
-2\headers\nrf52 -I..\..\..\..\..\..\components\toolchain -I..\..\..\..\..\..\ex
-ternal\fprintf -I..\..\..\..\..\..\external\segger_rtt -I..\config -IC:\Users\h
-aho\Documents\nRF_SDK\nRF5_SDK_14.2\examples\ble_peripheral\MMD\pca10040\s132\a
-rm5_no_packs\RTE -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -IC:\Keil_
-v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.0\Device\Include -IC:
-\Keil_v5\ARM\CMSIS\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISI
-ON_VERSION SETA 521" --predefine="_RTE_ SETA 1" --predefine="NRF52 SETA 1" --pr
-edefine="BOARD_PCA10040 SETA 1" --predefine="CONFIG_GPIO_AS_PINRESET SETA 1" --
-predefine="FLOAT_ABI_HARD SETA 1" --predefine="NRF52 SETA 1" --predefine="NRF52
-832_XXAA SETA 1" --predefine="NRF52_PAN_74 SETA 1" --predefine="NRF_SD_BLE_API_
-VERSION SETA 5" --predefine="S132 SETA 1" --predefine="SOFTDEVICE_PRESENT SETA 
-1" --predefine="SWI_DISABLE0 SETA 1" --cpreproc_opts=-DBOARD_PCA10040,-DCONFIG_
-GPIO_AS_PINRESET,-DFLOAT_ABI_HARD,-DNRF52,-DNRF52832_XXAA,-DNRF52_PAN_74,-DNRF_
-SD_BLE_API_VERSION=5,-DS132,-DSOFTDEVICE_PRESENT,-DSWI_DISABLE0 --list=.\_build
-\jlink_monitor_isr_arm.lst ..\..\..\JLINK_MONITOR_ISR_ARM.s
+onents\libraries\usbd\class\hid\generic -I..\..\..\..\..\..\components\librarie
+s\usbd\class\hid\kbd -I..\..\..\..\..\..\components\libraries\usbd\class\hid\mo
+use -I..\..\..\..\..\..\components\libraries\usbd\class\msc -I..\..\..\..\..\..
+\components\libraries\usbd\config -I..\..\..\..\..\..\components\libraries\util
+ -I..\..\..\..\..\..\components\nfc\ndef\conn_hand_parser -I..\..\..\..\..\..\c
+omponents\nfc\ndef\conn_hand_parser\ac_rec_parser -I..\..\..\..\..\..\component
+s\nfc\ndef\conn_hand_parser\ble_oob_advdata_parser -I..\..\..\..\..\..\componen
+ts\nfc\ndef\conn_hand_parser\le_oob_rec_parser -I..\..\..\..\..\..\components\n
+fc\ndef\connection_handover\ac_rec -I..\..\..\..\..\..\components\nfc\ndef\conn
+ection_handover\ble_oob_advdata -I..\..\..\..\..\..\components\nfc\ndef\connect
+ion_handover\ble_pair_lib -I..\..\..\..\..\..\components\nfc\ndef\connection_ha
+ndover\ble_pair_msg -I..\..\..\..\..\..\components\nfc\ndef\connection_handover
+\common -I..\..\..\..\..\..\components\nfc\ndef\connection_handover\ep_oob_rec 
+-I..\..\..\..\..\..\components\nfc\ndef\connection_handover\hs_rec -I..\..\..\.
+.\..\..\components\nfc\ndef\connection_handover\le_oob_rec -I..\..\..\..\..\..\
+components\nfc\ndef\generic\message -I..\..\..\..\..\..\components\nfc\ndef\gen
+eric\record -I..\..\..\..\..\..\components\nfc\ndef\launchapp -I..\..\..\..\..\
+..\components\nfc\ndef\parser\message -I..\..\..\..\..\..\components\nfc\ndef\p
+arser\record -I..\..\..\..\..\..\components\nfc\ndef\text -I..\..\..\..\..\..\c
+omponents\nfc\ndef\uri -I..\..\..\..\..\..\components\nfc\t2t_lib -I..\..\..\..
+\..\..\components\nfc\t2t_lib\hal_t2t -I..\..\..\..\..\..\components\nfc\t2t_pa
+rser -I..\..\..\..\..\..\components\nfc\t4t_lib -I..\..\..\..\..\..\components\
+nfc\t4t_lib\hal_t4t -I..\..\..\..\..\..\components\nfc\t4t_parser\apdu -I..\..\
+..\..\..\..\components\nfc\t4t_parser\cc_file -I..\..\..\..\..\..\components\nf
+c\t4t_parser\hl_detection_procedure -I..\..\..\..\..\..\components\nfc\t4t_pars
+er\tlv -I..\..\..\..\..\..\components\softdevice\common -I..\..\..\..\..\..\com
+ponents\softdevice\s132\headers -I..\..\..\..\..\..\components\softdevice\s132\
+headers\nrf52 -I..\..\..\..\..\..\external\fprintf -I..\..\..\..\..\..\external
+\segger_rtt -I..\..\..\..\..\..\integration\nrfx -I..\..\..\..\..\..\integratio
+n\nrfx\legacy -I..\..\..\..\..\..\modules\nrfx -I..\..\..\..\..\..\modules\nrfx
+\drivers\include -I..\..\..\..\..\..\modules\nrfx\hal -I..\..\..\..\..\..\modul
+es\nrfx\mdk -I..\config -IC:\Users\haho\Documents\nRF_SDK\nRF5_SDK_15.0\example
+s\ble_peripheral\j-link-monitoring-mode-debugging\pca10040\s132\arm5_no_packs\R
+TE -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\No
+rdicSemiconductor\nRF_DeviceFamilyPack\8.16.0\Device\Include -IC:\Keil_v5\ARM\P
+ACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.17.0\Device\Include --predefine=
+"__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 521" --predefine="_RTE_
+ SETA 1" --predefine="NRF52 SETA 1" --predefine="BOARD_PCA10040 SETA 1" --prede
+fine="CONFIG_GPIO_AS_PINRESET SETA 1" --predefine="FLOAT_ABI_HARD SETA 1" --pre
+define="NRF52 SETA 1" --predefine="NRF52832_XXAA SETA 1" --predefine="NRF52_PAN
+_74 SETA 1" --predefine="NRF_SD_BLE_API_VERSION SETA 6" --predefine="S132 SETA 
+1" --predefine="SOFTDEVICE_PRESENT SETA 1" --predefine="SWI_DISABLE0 SETA 1" --
+predefine="__HEAP_SIZE SETA 8192" --predefine="__STACK_SIZE SETA 8192" --cprepr
+oc_opts=-DBOARD_PCA10040,-DCONFIG_GPIO_AS_PINRESET,-DFLOAT_ABI_HARD,-DNRF52,-DN
+RF52832_XXAA,-DNRF52_PAN_74,-DNRF_SD_BLE_API_VERSION=6,-DS132,-DSOFTDEVICE_PRES
+ENT,-DSWI_DISABLE0,-D__HEAP_SIZE=8192,-D__STACK_SIZE=8192 --list=.\_build\jlink
+_monitor_isr_arm.lst ..\..\..\JLINK_MONITOR_ISR_ARM.s
 
 
 
@@ -2097,4 +2116,4 @@ Symbol: JLINK_MONITOR_OnPoll
       At line 164 in file ..\..\..\JLINK_MONITOR_ISR_ARM.s
 Comment: JLINK_MONITOR_OnPoll used once
 3 symbols
-441 symbols in table
+443 symbols in table

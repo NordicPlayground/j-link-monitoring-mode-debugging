@@ -20,6 +20,6 @@ When single stepping through code, a debugger will insert a breakpoint after eac
 
 ## Okay that sounds great, but i'm still not convinced that this is useful for me
 
-I've made an example for Keil and SES based on the ble_app_blinky_s132 tutorial in SDK14.2. The goal of this example is to show how one can maintain an active BLE connection while "halting" the CPU or single stepping through the application code.
+I've made an example for Keil and SES based on the ble_app_blinky_s132 tutorial in SDK15.0. The goal of this example is to show how one can maintain an active BLE connection while "halting" the CPU or single stepping through the application code.
 
 See the [Keil README](pca10040/s132/arm5_no_packs/README.md) and the [SES README](pca10040/s132/ses/README.md) for step-by-step guides. 

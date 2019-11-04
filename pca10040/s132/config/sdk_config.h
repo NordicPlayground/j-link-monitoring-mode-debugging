@@ -521,7 +521,7 @@
 // <e> NRF_CRYPTO_ENABLED - nrf_crypto - Cryptography library
 //==========================================================
 #ifndef NRF_CRYPTO_ENABLED
-#define NRF_CRYPTO_ENABLED 0
+#define NRF_CRYPTO_ENABLED 1
 #endif
 // <o> NRF_CRYPTO_ALLOCATOR  - Memory allocator
  
@@ -4187,7 +4187,7 @@
 // <e> NRFX_UARTE_ENABLED - nrfx_uarte - UARTE peripheral driver
 //==========================================================
 #ifndef NRFX_UARTE_ENABLED
-#define NRFX_UARTE_ENABLED 0
+#define NRFX_UARTE_ENABLED 1
 #endif
 // <o> NRFX_UARTE0_ENABLED - Enable UARTE0 instance 
 #ifndef NRFX_UARTE0_ENABLED
@@ -4308,7 +4308,7 @@
 // <e> NRFX_UART_ENABLED - nrfx_uart - UART peripheral driver
 //==========================================================
 #ifndef NRFX_UART_ENABLED
-#define NRFX_UART_ENABLED 0
+#define NRFX_UART_ENABLED 1
 #endif
 // <o> NRFX_UART0_ENABLED - Enable UART0 instance 
 #ifndef NRFX_UART0_ENABLED
@@ -6317,7 +6317,7 @@
 // <e> HARDFAULT_HANDLER_ENABLED - hardfault_default - HardFault default handler for debugging and release
 //==========================================================
 #ifndef HARDFAULT_HANDLER_ENABLED
-#define HARDFAULT_HANDLER_ENABLED 1
+#define HARDFAULT_HANDLER_ENABLED 0
 #endif
 // <q> HARDFAULT_HANDLER_GDB_PSP_BACKTRACE  - Bypass the GDB problem with multiple stack pointers backtrace
  
@@ -6331,7 +6331,7 @@
 // <i> Before a HardFault handler exits, the stack will be reverted to its previous value.
 
 #ifndef HARDFAULT_HANDLER_GDB_PSP_BACKTRACE
-#define HARDFAULT_HANDLER_GDB_PSP_BACKTRACE 0
+#define HARDFAULT_HANDLER_GDB_PSP_BACKTRACE 1
 #endif
 
 // </e>
@@ -11433,7 +11433,7 @@
 // <i> The time set aside for this connection on every connection interval in 1.25 ms units.
 
 #ifndef NRF_SDH_BLE_GAP_EVENT_LENGTH
-#define NRF_SDH_BLE_GAP_EVENT_LENGTH 3
+#define NRF_SDH_BLE_GAP_EVENT_LENGTH 6
 #endif
 
 // <o> NRF_SDH_BLE_GATT_MAX_MTU_SIZE - Static maximum MTU size. 

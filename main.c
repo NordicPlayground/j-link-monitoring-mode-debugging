@@ -64,6 +64,7 @@
 #include "nrf_ble_qwr.h"
 #include "nrf_pwr_mgmt.h"
 
+
 #include "nrf_log.h"
 #include "nrf_log_ctrl.h"
 #include "nrf_log_default_backends.h"
@@ -74,12 +75,12 @@
 #define LEDBUTTON_LED                   BSP_BOARD_LED_2                         /**< LED to be toggled with the help of the LED Button Service. */
 #define LEDBUTTON_BUTTON                BSP_BUTTON_0                            /**< Button that will trigger the notification event with the LED Button Service */
 
-#define DEVICE_NAME                     "Nordic_Blinky"                         /**< Name of device. Will be included in the advertising data. */
+#define DEVICE_NAME                     "NORDIC_BLINKY"                         /**< Name of device. Will be included in the advertising data. */
 
 #define APP_BLE_OBSERVER_PRIO           3                                       /**< Application's BLE observer priority. You shouldn't need to modify this value. */
 #define APP_BLE_CONN_CFG_TAG            1                                       /**< A tag identifying the SoftDevice BLE configuration. */
 
-#define APP_ADV_INTERVAL                64                                      /**< The advertising interval (in units of 0.625 ms; this value corresponds to 40 ms). */
+#define APP_ADV_INTERVAL                64                                     /**< The advertising interval (in units of 0.625 ms; this value corresponds to 40 ms). */
 #define APP_ADV_DURATION                BLE_GAP_ADV_TIMEOUT_GENERAL_UNLIMITED   /**< The advertising time-out (in units of seconds). When set to 0, we will never time out. */
 
 
@@ -564,10 +565,10 @@ static void idle_state_handle(void)
  */
 int main(void)
 {
-#if CONFIG_JLINK_MONITOR_ENABLED
+    #if CONFIG_JLINK_MONITOR_ENABLED
     NVIC_SetPriority(DebugMonitor_IRQn, _PRIO_SD_LOW);
-#endif
-
+    #endif
+    
     // Initialize.
     log_init();
     leds_init();
@@ -575,8 +576,9 @@ int main(void)
     buttons_init();
     power_management_init();
     ble_stack_init();
+    //sd_power_dcdc_mode_set(NRF_POWER_DCDC_ENABLE);
     gap_params_init();
-    gatt_init();
+    gatt_init(); 
     services_init();
     advertising_init();
     conn_params_init();
