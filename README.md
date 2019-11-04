@@ -4,7 +4,7 @@
 Monitor Mode Debugging enables you to halt and step through low priority code whilst letting high priority code execute as normal. With MMD you can debug your application while maintaining a BLE connection. 
 
 Requirements:
-* nRF5_SDK14.2
+* nRF5_SDK16.0
 * nRF52DK (PCA10040)
 * Keil µVision5 or Segger Embedded Studio V3.30
 * nRF Connect (mobile or computer)
@@ -18,7 +18,7 @@ When single stepping through code, a debugger will insert a breakpoint after eac
 
 ## Okay that sounds great, but i'm still not convinced that this is useful for me
 
-I've made an example for Keil and SES based on the ble_app_blinky_s132 tutorial in SDK14.2.
+I've made an example for Keil and SES based on the ble_app_blinky_s132 tutorial in SDK16.0.
 
 See the [Keil README](pca10040/s132/arm5_no_packs/README.md) and the [SES README](pca10040/s132/ses/README.md) for instructions. 
 

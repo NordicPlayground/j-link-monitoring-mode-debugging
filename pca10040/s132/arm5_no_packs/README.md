@@ -7,7 +7,7 @@ Steps:
 
 3. Compile the example.
 
-4. Erase and flash an nRF52DK with 's132_nrf52_5.0.0_softdevice.hex' found in SDK14.2\components\softdevice\s132\hex
+4. Erase and flash an nRF52DK with 's132_nrf52_7.0.1_softdevice.hex' found in SDK16.0\components\softdevice\s132\hex
 
 5. Flash the application to the nRF52DK via Keil. 
 NOTE: When prompted with the dialog box 'Monitor Mode missing license' you need to press 'No'. This is done to prevent the J-link driver to enter MMD when flashing the application. You can also flash the application through nrfjprog without any modification. 
